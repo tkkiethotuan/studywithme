@@ -27,6 +27,9 @@ function timer_25_5() {
             // screen_minute.innerText = "0 m"
             // screen_second.innerText = "0 s"
 
+            var time_status = document.querySelector("#time-status")
+            time_status.innerText = "Empty"
+
             screen_minute.innerText = "Relax"
             screen_second.innerText = "Time"
 
@@ -77,6 +80,9 @@ function timer_25_5_relax() {
             // screen_minute.innerText = "0 m"
             // screen_second.innerText = "0 s"
 
+            var time_status = document.querySelector("#time-status")
+            time_status.innerText = "Empty"
+
             screen_minute.innerText = "Focus"
             screen_second.innerText = "Time"
 
@@ -101,8 +107,7 @@ function timer_25_5_relax() {
 
 // 50 - 10
 
-function timer_50_10() 
-{
+function timer_50_10() {
     var time_status = document.querySelector("#time-status")
     time_status.innerText = "Focus"
     var start_focus_button = document.querySelector("#start_timer")
@@ -131,6 +136,9 @@ function timer_50_10()
             // screen_minute.innerText = "0 m"
             // screen_second.innerText = "0 s"
 
+            var time_status = document.querySelector("#time-status")
+            time_status.innerText = "Empty"
+
             screen_minute.innerText = "Relax"
             screen_second.innerText = "Time"
 
@@ -152,8 +160,7 @@ function timer_50_10()
     }, 1000)
 }
 
-function timer_50_10_relax() 
-{
+function timer_50_10_relax() {
     var time_status = document.querySelector("#time-status")
     time_status.innerText = "Relax"
     var start_relax_button = document.querySelector("#relax_timer")
@@ -182,6 +189,9 @@ function timer_50_10_relax()
             // screen_minute.innerText = "0 m"
             // screen_second.innerText = "0 s"
 
+            var time_status = document.querySelector("#time-status")
+            time_status.innerText = "Empty"
+
             screen_minute.innerText = "Focus"
             screen_second.innerText = "Time"
 
@@ -202,15 +212,11 @@ function timer_50_10_relax()
         }
     }, 1000)
 }
- 
+
 
 // elective mode
 
-var focus_time_get = (document.querySelector("#focus-time-input").value) / 1
-var relax_time_get = (document.querySelector("#relax-time-input").value) / 1
-
-function elective_focus()
-{
+function elective_focus() {
     var focus_time_get = (document.querySelector("#focus-time-input").value) / 1
     var time_status = document.querySelector("#time-status")
     time_status.innerText = "Focus"
@@ -240,6 +246,9 @@ function elective_focus()
             // screen_minute.innerText = "0 m"
             // screen_second.innerText = "0 s"
 
+            var time_status = document.querySelector("#time-status")
+            time_status.innerText = "Empty"
+
             screen_minute.innerText = "Relax"
             screen_second.innerText = "Time"
 
@@ -261,8 +270,7 @@ function elective_focus()
     }, 1000)
 }
 
-function elective_relax()
-{
+function elective_relax() {
     var relax_time_get = (document.querySelector("#relax-time-input").value) / 1
     var time_status = document.querySelector("#time-status")
     time_status.innerText = "Relax"
@@ -291,6 +299,9 @@ function elective_relax()
             // clearInterval(enddd);
             // screen_minute.innerText = "0 m"
             // screen_second.innerText = "0 s"
+
+            var time_status = document.querySelector("#time-status")
+            time_status.innerText = "Empty"
 
             screen_minute.innerText = "Focus"
             screen_second.innerText = "Time"

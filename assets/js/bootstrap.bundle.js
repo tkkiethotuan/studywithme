@@ -7088,3 +7088,12 @@
 
 }));
 //# sourceMappingURL=bootstrap.bundle.js.map
+
+
+// my code
+
+function hide_content()
+{
+  var content__get = document.querySelector(".content")
+  content__get.setAttribute("class", "content d-none")
+}

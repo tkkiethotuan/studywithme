@@ -71,45 +71,52 @@
             <h1>Tự chọn</h1>
 
             <div class="time-set">
-                <h2>Set time</h2>
+                <h2>Chọn thời gian</h2>
                 <label for="focus-time-input" class="form-label">
-                    <h3>Focus time (minute)</h3>
+                    <h3>Focus time (phút)</h3>
                 </label>
                 <input type="text" class="form-control" id="focus-time-input">
 
                 <label for="relax-time-input" class="form-label">
-                    <h3>Relax time (minute)</h3>
+                    <h3>Relax time (phút)</h3>
                 </label>
                 <input type="text" class="form-control" id="relax-time-input">
+
+                <br><br><br>
+
+                <h3>Kéo xuống cuối trang</h3>
+                <h3 class="material-symbols-rounded">arrow_downward</h3>
             </div>
 
-            <div class="status-box">
-                <h3 id="time-status">None</h3>
-            </div>
+            <div class="timer-body">
+                <div class="status-box">
+                    <h3 id="time-status">Empty</h3>
+                </div>
 
-            <div class="box-timer">
-                <h2 class="box-timer-item" id="timer_screen"><span id="timer_minute">Focus</span> <span> </span> <span
-                        id="timer_second">Time</span></h2>
-            </div>
+                <div class="box-timer">
+                    <h2 class="box-timer-item" id="timer_screen"><span id="timer_minute">Focus</span> <span> </span>
+                        <span id="timer_second">Time</span></h2>
+                </div>
 
-            <div class="control-buttons">
-                <button id="start_timer" class="btn btn-primary d-inline-block" onclick="elective_focus()">Start
-                    focus</button>
-                <button id="relax_timer" class="btn btn-success d-inline-block disabled"
-                    onclick="elective_relax()">Start relax</button>
-            </div>
+                <div class="control-buttons">
+                    <button id="start_timer" class="btn btn-primary d-inline-block" onclick="elective_focus()">Start
+                        focus</button>
+                    <button id="relax_timer" class="btn btn-success d-inline-block disabled"
+                        onclick="elective_relax()">Start relax</button>
+                </div>
 
-            <div class="music-screen" style="text-align: center;">
-                <iframe class="music-screen-item" style="border-radius:12px"
-                    src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8Uebhn9wzrS?utm_source=generator"
-                    frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe>
-            </div>
+                <div class="music-screen" style="text-align: center;">
+                    <iframe class="music-screen-item" style="border-radius:12px"
+                        src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8Uebhn9wzrS?utm_source=generator"
+                        frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
 
-            <div style="text-align: center;">
-                <h1>Nghe full <a href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS" target="_blank"
-                        class="btn btn-primary">tại đây</a></h1>
+                <div style="text-align: center;">
+                    <h1>Nghe full <a href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS" target="_blank"
+                            class="btn btn-primary">tại đây</a></h1>
+                </div>
             </div>
         </div>
     </div>

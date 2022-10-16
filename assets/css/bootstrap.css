@@ -12740,7 +12740,12 @@ fieldset:disabled .btn {
 }
 
 .btn {
-  margin: 10px 5px;
+  margin: 0.4em 5px;
+  transition: transform linear 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-0.2em);
 }
 
 .control-buttons {
@@ -12801,9 +12806,25 @@ fieldset:disabled .btn {
 .time-set {
   text-align: center;
   margin-bottom: 200px;
+  height: 100vh;
 }
 
 .time-set .form-control {
   width: 100px;
   margin: 10px auto;
+}
+
+.timer-body {
+  height: 42vh;
+}
+
+.nav__mobile {
+  width: 100vw;
+}
+
+@media (max-width: 600px)
+{
+  .timer-body {
+    height: 37vh;
+  }
 }
